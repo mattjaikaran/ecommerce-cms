@@ -1,6 +1,8 @@
 # E-Commerce CMS
 
-Strapi CMS built with NodeJS to manage content on E-Commerce App
+### Technologies 
+- Strapi built w/ NodeJS
+- SQLite Database
 
 - [NextJS Front End](https://github.com/mattjaikaran/ecommerce-next)
 - [Django API](https://github.com/mattjaikaran/ecommerce-api)
@@ -14,11 +16,13 @@ Strapi CMS built with NodeJS to manage content on E-Commerce App
 
 ### Getting Started
 
-Start your Strapi application with autoReload enabled.
+Run the development server:
 
+```bash
+$ git clone URL
+$ cd ecommerce-cms
+$ yarn
+$ yarn develop
 ```
-git clone URL
-cd ecommerce-cms
-yarn
-yarn develop
-```
+
+CMS Server runs on [http://localhost:1337/admin](http://localhost:1337/admin)
